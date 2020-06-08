@@ -1,0 +1,14 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff8f8;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 150%;
+  margin: .5em 0;
+  padding: 0;
+}
+div {
+  padding: .5em 2em;
+}
