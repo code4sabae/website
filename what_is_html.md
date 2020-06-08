@@ -27,8 +27,8 @@ HTMLには様々なバージョンがありますが、最新版のHTMLである
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8"/>
-  <title>たいとる</title>
+<meta charset="UTF-8"/>
+<title>たいとる</title>
 </head>
 <body>
   <div>
