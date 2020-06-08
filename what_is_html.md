@@ -94,4 +94,4 @@ imgタグは、改行で使ったbrタグと同様、閉じタグがいらない
 ## かっこよく飾りたい？
 
 HTMLを飾るための技「CSS」を使います → CSSはじめのいっぽ  
-https://github.com/code4sabae/website/edit/master/what_is_css.md  
+https://github.com/code4sabae/website/master/what_is_css.md  
