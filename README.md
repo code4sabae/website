@@ -25,7 +25,7 @@
 7. コミットし、しばらく待って、リロードすると表示される！
 
 もう少し詳しく？ → HTMLはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/whatishtml.md
+https://github.com/code4sabae/website/blob/master/what_is_html.md
 
 ## GitHub Desktop を使って効率アップ！
 
@@ -51,3 +51,13 @@ A	@	185.199.111.153
 ```
 4. DNSの設定が伝搬し有効になるまで待つ
 5. 独自ドメインでアクセスしてみる
+
+## サイト、育てましょう！
+
+HTMLはじめのいっぽ  
+https://github.com/code4sabae/website/blob/master/what_is_html.md  
+
+## わからないこと？
+
+こちらのIssuesに分からないことをどうぞ！  
+https://github.com/code4sabae/website/issues  
