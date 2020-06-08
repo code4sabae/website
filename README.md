@@ -38,5 +38,13 @@
 ## 独自ドメインを設定しよう
 
 1. ドメインを用意する
-2. [Create new file]を押し、中に設定したいドメイン名を書き、CNAME という名前にしてコミットする
-3. DNSを設定する （[詳細](https://help.github.com/ja/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site))
+2. [Settings]のGitHub Pagesの Custom domain に、設定したいドメイン名を書き[Save]する
+3. 管理するドメインのサービスの設定画面へ行き、下記のようにDNSを設定する （4つのIPアドレスがGitHub Pagesを指しています [詳細](https://help.github.com/ja/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site))
+```
+A	@	185.199.108.153
+A	@	185.199.109.153
+A	@	185.199.110.153
+A	@	185.199.111.153
+```
+4. DNSの設定が伝搬し有効になるまで待つ
+5. 独自ドメインでアクセスしてみる
