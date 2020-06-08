@@ -1,5 +1,7 @@
 # GitHub Pages で、じぶんのウェブサイトをつくろう！
 
+## ひとまず作ってみよう！
+
 1. このリポジトリを右上にあるForkを押して自分のリポジトリとしてコピーする
 2. 自分のリポジトリの設定(Settings)を開く
 3. GitHub Pages の項目までスクロールし、Sourceを[master brunch]に変更する
@@ -21,3 +23,20 @@
 5. index.html を編集する
 6. &lt;img src="imgfile.jpg"&gt; と、&lt;h1&gt;タイトル&lt;/h1&gt; の前の行に書く (imgfile.jpg はアップロードしたファイル名に）
 7. コミットし、しばらく待って、リロードすると表示される！
+
+## GitHub Desktop を使って効率アップ！
+
+1. [GitHub Desktop](https://desktop.github.com/)をダウンロードする
+2. 自分のリポジトリの右側[clone or download]を押し、[Open in Desktop]を押す
+3. ダウンロードするフォルダをローカルパスとして指定し[Clone]する
+4. ダウンロードしたフォルダの中の index.html をブラウザで開くと表示される
+5. [VSCode](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)などのエディタを使って、index.html や index.css を編集し、サイトをつくる
+6. GitHub Desktop で、コミットする（更新用のメモは必須、”更新”など、一言でもOK！）
+7. [Fetch origin] を押し、サーバーにプッシュする
+8. しばらく待つと、反映される
+
+## 独自ドメインを設定しよう
+
+1. ドメインを用意する
+2. [Create new file]を押し、中に設定したいドメイン名を書き、CNAME という名前にしてコミットする
+3. DNSを設定する （[詳細](https://help.github.com/ja/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site))
