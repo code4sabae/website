@@ -1,22 +1,24 @@
 body {
   font-family: sans-serif;
-  background-color: #fff8d8;
   margin: 0;
   padding: 0;
 }
 .header {
   background-color: white;
+  padding: 0 .5em;
 }
 .footer {
   background-color: white;
+  padding: 0 .5em;
 }
 .main {
-  margin: 1em;
+  background-color: #fff8d8;
+  padding: 1em;
 }
 h1 {
   font-size: 150%;
-  margin: .5em 0;
-  padding: 0;
+  margin: 0 0;
+  padding: .5em 0;
 }
 div {
   padding: 0vw 0vh;
