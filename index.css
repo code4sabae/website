@@ -1,8 +1,17 @@
 body {
   font-family: sans-serif;
-  background-color: #fff8f8;
+  background-color: #fff8d8;
   margin: 0;
   padding: 0;
+}
+.header {
+  background-color: white;
+}
+.footer {
+  background-color: white;
+}
+.main {
+  margin: 1em;
 }
 h1 {
   font-size: 150%;
@@ -10,5 +19,6 @@ h1 {
   padding: 0;
 }
 div {
-  padding: .5em 2em;
+  padding: 0vw 0vh;
+  margin: 0vw 0vh;
 }
