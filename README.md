@@ -24,7 +24,7 @@
 6. &lt;img src="imgfile.jpg"&gt; と、&lt;h1&gt;タイトル&lt;/h1&gt; の前の行に書く (imgfile.jpg はアップロードしたファイル名に）
 7. コミットし、しばらく待って、リロードすると表示される！
 
-HTMLはじめのいっぽ  
+もう少し詳しく？ → HTMLはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/whatishtml.md
 
 ## GitHub Desktop を使って効率アップ！
