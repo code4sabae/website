@@ -94,7 +94,7 @@ div {
   border: 0.1em solid blue;
 }
 ```
-0.1em（文字サイズの1/10）の太さ、実線（solid）、青（blue)で囲みます。padding、marginを指定してみて変化を見てみましょう。
+0.1em（文字サイズの1/10）の太さ、実線（solid）、青（blue)で囲みます。padding、marginを指定してみて変化を見てみましょう。
 
 solidの代わりに、破線（dashed）、点線（dotted）、二重線（double）などがあります。上下左右それぞれ別々に指定することもできるので、興味があれば調べてみましょう。（css border とかで、検索すればすぐ解決します）
 
@@ -137,6 +137,16 @@ img {
 ```
 
 画像毎に大きさを変えたい場合、前述の class を使います。
+
+## リンクの色がうまく変わらない！
+
+aタグはちょっと特殊です。!important を使うと反映されます。
+```
+a {
+  color: hsl(30, 80%, 30%) !important;
+}
+```
+訪問済みかどうかや、クリックしたときの色など、細かな指定ができるようになっています。（[詳細](https://developer.mozilla.org/ja/docs/Web/CSS/:active)）
 
 ## 他には？
 

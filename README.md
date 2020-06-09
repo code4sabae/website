@@ -57,7 +57,7 @@ A	@	185.199.111.153
 4. DNSの設定が伝搬し有効になるまで待つ
 5. 独自ドメインでアクセスしてみる
 
-## サイト、育てましょう！
+## サイトを育てましょう！
 
 HTMLはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_html.md  
