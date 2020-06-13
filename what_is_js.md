@@ -3,11 +3,11 @@
 ## JSとは？
 
 JavaScriptはブラウザ上で動きを付けるために生まれたプログラミング言語です。
-[ECMAScript](https://ja.wikipedia.org/wiki/ECMAScript)として標準化されています。JavaScriptはOracle社の商標のため、JSと呼びます。
+[ECMAScript](https://ja.wikipedia.org/wiki/ECMAScript)（イクマスクリプト）として標準化され、毎年のようにバージョンアップしています。
+JavaScriptはOracle社の商標で、ECMAScriptと呼ばれることはあまりないので、通称としてよく使われるJSと呼ぶことにします。
+HTMLやCSSと合わせて使えるようになると、表現の幅がぐっと広がって楽しいです！
 
-HTMLやCSSと合わせて使えるようになると、いろいろ楽しめます！
-
-ひとまず、BMIを計算するwebアプリを打ち込んで、動かして見ましょう。まだ、意味はわからなくてOKです！
+ひとまず、BMIを計算するwebアプリを打ち込んで、動かして見ましょう。意味はわからなくてOKです！
 ```
 <body>
 Height <input id="height">cm<br>
@@ -96,7 +96,7 @@ print(h);
 hを定数(const)だよと書き、ブラウザをリロード(F5)することで、無事150と表示されるようになります。  
 思ったとおりにいかないときは、JavaScriptコンソールを開きましょう。
 
-## BMI計算アプリをつくろう
+## BMI計算アプリをしあげよう
 
 今度は、もう少しちゃんとしたHTMLとして作ります。
 ```
@@ -175,17 +175,23 @@ textarea {
 </style>
 </head>
 ```
-間はデザインの基本！背景色とフォントも変えてみました。画像を貼ったり、いろんな改造にチャレンジしてみてください！
+間はデザインの基本！背景色とフォントも変えてみました。画像を貼ったり、いろんな改造にチャレンジしてみてください！  
+うまく行かなかった場合、[こちら](https://code4sabae.github.io/website/bmi.html)の完成版とよく見比べてみましょう。
+
+![bmi](https://code4sabae.github.io/website/bmi.png)  
+
+HTMLの復習はこちら → HTMLはじめのいっぽ  
+https://github.com/code4sabae/website/blob/master/what_is_html.md  
 
 CSSの復習はこちら → CSSはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_css.md  
 
-## 文法をもっと調べる
+## もっと調べる
 
 JSは本格的なプログラミング言語、大規模な開発にまで使えます。詳しく知りたい方は、こちらのサイトがおすすめです。
 
 JavaScript の基本 - ウェブ開発を学ぶ | MDN （ブラウザの組み込み関数やクラスの説明豊富！）
 https://developer.mozilla.org/ja/docs/Web/JavaScript
 
-JavaScript Primer - 迷わないための入門書 #jsprimer（やさしく読みやすい） 
+JavaScript Primer - 迷わないための入門書 #jsprimer（やさしく読みやすい）  
 https://jsprimer.net/  

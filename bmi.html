@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/>
+<title>BMI計算</title>
+<style>
+body {
+  background-color: hsl(50, 100%, 80%);
+  font-family: sans-serif;
+}
+* {
+  margin: 1em;
+}
+textarea {
+  width: 20em;
+  height: 5em;
+}
+</style>
+</head>
+<body>
+
+身長<input type="text" id="height">cm<br>
+体重<input type="text" id="weight">kg<br>
+<button id="btn">BMI</button><br>
+<textarea id="output"></textarea><br>
+
+<script type="module">
+import { print } from "https://js.sabae.cc/";
+
+btn.onclick = () => {
+  const bmi = weight.value / (height.value / 100) ** 2;
+  let s = "";
+  if (bmi < 18.5) {
+    s = "やせ型";
+  } else if (bmi < 25) {
+    s = "標準";
+  } else {
+    s = "肥満";
+  }
+  output.value = `${s}です BMI ${bmi}`;
+};
+</script>
+
+</body>
+</html>
