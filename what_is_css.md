@@ -13,6 +13,9 @@ body {
 ```
 colorは文字色を指定する属性名です。bodyタグの中、つまり、表示する全部の文字の色を「青」と指定しています。
 
+HTMLの復習はこちら → HTMLはじめのいっぽ  
+https://github.com/code4sabae/website/blob/master/what_is_html.md  
+
 ## 背景色を変えよう
 
 ```
@@ -151,3 +154,6 @@ a {
 ## 他には？
 
 背景に画像をおいたり、スクロールしてもずっと表示されたり、いろんなことができます。やりたいことに「css」を加えて、検索してみましょう！
+
+例えば「CSS 中央揃え」  
+https://www.google.com/search?q=CSS+%E4%B8%AD%E5%A4%AE%E6%8F%83%E3%81%88  

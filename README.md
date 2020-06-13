@@ -41,26 +41,21 @@ https://github.com/code4sabae/website/blob/master/what_is_html.md
 
 ## ドメイン名だけでアクセスできるようにしよう
 
-[Settings]で、リポジトリ名を (自分のGitHubアカウント名).github.io に変更すると、そのアドレスでアクセスできます！短くてかっこいいですね！
+[Settings]で、リポジトリ名を (自分のGitHubアカウント名).github.io に変更すると、そのアドレスでアクセスできます！短くてかっこいいですね！  
 
-## 独自ドメインを設定しよう
-
-1. ドメインを用意する
-2. [Settings]のGitHub Pagesの Custom domain に、設定したいドメイン名を書き[Save]する
-3. 管理するドメインのサービスの設定画面へ行き、下記のようにDNSを設定する （4つのIPアドレスがGitHub Pagesを指しています [詳細](https://help.github.com/ja/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site))
-```
-A	@	185.199.108.153
-A	@	185.199.109.153
-A	@	185.199.110.153
-A	@	185.199.111.153
-```
-4. DNSの設定が伝搬し有効になるまで待つ
-5. 独自ドメインでアクセスしてみる
+github.io じゃなく、じぶんだけのドメインを設定したい方はこちら  
+https://github.com/code4sabae/website/blob/master/what_is_domain.md  
 
 ## サイトを育てましょう！
 
 HTMLはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_html.md  
+
+CSSはじめのいっぽ  
+https://github.com/code4sabae/website/blob/master/what_is_css.md  
+
+JavaScriptはじめのいっぽ  
+https://github.com/code4sabae/website/blob/master/what_is_js.md  
 
 ## わからないこと？
 
