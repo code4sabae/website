@@ -2,9 +2,9 @@
 
 ## JSとは？
 
-JavaScriptはブラウザ上で動きを付けるために生まれたプログラミング言語です。
+JavaScript(TM)はブラウザ上で動きを付けるために生まれたプログラミング言語です。
 [ECMAScript](https://ja.wikipedia.org/wiki/ECMAScript)（イクマスクリプト）として標準化され、毎年のようにバージョンアップしています。
-JavaScriptはOracle社の商標で、ECMAScriptと呼ばれることはあまりないので、通称としてよく使われるJSと呼ぶことにします。
+JS（ジェーエス）と呼ばれています。
 HTMLやCSSと合わせて使えるようになると、表現の幅がぐっと広がって楽しいです！
 
 ひとまず、BMIを計算するwebアプリを打ち込んで、動かして見ましょう。意味はわからなくてOKです！
@@ -79,7 +79,7 @@ print(h);
 </script>
 ```
 何も表示されません。  
-JavaScriptコンソールを開くと、エラーが起きていることがわかります。
+[JavaScriptコンソール](https://lucidchart.zendesk.com/hc/ja/articles/207323676-JavaScript-%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%82%92%E9%96%8B%E3%81%8F%E6%96%B9%E6%B3%95)を開くと、エラーが起きていることがわかります。
 ```
 Uncaught ReferenceError: h is not defined
     at print.html:4
@@ -95,6 +95,9 @@ print(h);
 ```
 hを定数(const)だよと書き、ブラウザをリロード(F5)することで、無事150と表示されるようになります。  
 思ったとおりにいかないときは、JavaScriptコンソールを開きましょう。
+
+JavaScript コンソールを開く方法 – Lucidchart  
+https://lucidchart.zendesk.com/hc/ja/articles/207323676-JavaScript-%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB%E3%82%92%E9%96%8B%E3%81%8F%E6%96%B9%E6%B3%95  
 
 ## BMI計算アプリをしあげよう
 

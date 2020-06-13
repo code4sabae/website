@@ -43,7 +43,7 @@ https://github.com/code4sabae/website/blob/master/what_is_html.md
 
 [Settings]で、リポジトリ名を (自分のGitHubアカウント名).github.io に変更すると、そのアドレスでアクセスできます！短くてかっこいいですね！  
 
-github.io じゃなく、じぶんだけのドメインを設定したい方はこちら  
+github.io じゃなく、じぶんだけのドメイン（独自ドメイン）を設定したい方はこちら  
 https://github.com/code4sabae/website/blob/master/what_is_domain.md  
 
 ## サイトを育てましょう！
@@ -54,7 +54,7 @@ https://github.com/code4sabae/website/blob/master/what_is_html.md
 CSSはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_css.md  
 
-JavaScriptはじめのいっぽ  
+JSはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_js.md  
 
 ## わからないこと？
