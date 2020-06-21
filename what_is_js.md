@@ -191,7 +191,7 @@ https://github.com/code4sabae/website/blob/master/what_is_css.md
 
 ## JSを使った楽しいサンプル
 
-![shubo](https://code4sabae.github.io/matter-mjs/samples/shubo.png)  
+![shuko](https://code4sabae.github.io/matter-mjs/samples/shuko.png)  
 [しゅこ / Shuko](https://code4sabae.github.io/matter-mjs/samples/shuko.html)  
 [62行のプログラムをみてみる src on GitHub](https://github.com/code4sabae/matter-mjs/blob/master/samples/shuko.html)  
 2D物理エンジンを使った簡単なサンプルです
