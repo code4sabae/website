@@ -91,7 +91,24 @@ jpgかpngの半角英数小文字でファイルを用意し、画像を入れ�
 ```
 imgタグは、改行で使ったbrタグと同様、閉じタグがいらないタグです。
 
+## map-gsiタグ
+
+HTMLタグは自由に拡張できます。例えば、国交省国土地理院がオープンデータとして提供する地図データを使った[map-gsi](https://fukuno.jig.jp/2896)タグを使えば、ページ内に地図を埋め込めます。
+```
+<script type="module" src="https://code4sabae.github.io/leaflet-mjs/map-gsi.mjs"></script>
+<map-gsi>
+  <map-gsi-icon ll="35.942795,136.198881" name="めがね会館" src="icon-meganekaikan.png" size=64></map-gsi-icon>
+</map-gsi>
+```  
+
 ## かっこよく飾りたい？
 
 HTMLを飾るための技「CSS」を使います → CSSはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_css.md  
+
+じぶんだけのウェブサイトがほしい → GitHub Pagesはじめのいっぽ  
+https://github.com/code4sabae/website/blob/master/README.md  
+
+いろんなタグを調べる → HTML要素リファレンス  
+https://developer.mozilla.org/ja/docs/Web/HTML/Element  
+
