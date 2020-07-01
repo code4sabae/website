@@ -100,15 +100,16 @@ HTMLタグは自由に拡張できます。例えば、国交省国土地理院�
   <map-gsi-icon ll="35.942795,136.198881" name="めがね会館" src="icon-meganekaikan.png" size=64></map-gsi-icon>
 </map-gsi>
 ```  
+タブ区切りデータをHTMLテーブルに楽々変換、tsv-tableタグ! JS x WebComponentsはじめのいっぽ  
+https://fukuno.jig.jp/2897  
 
 ## かっこよく飾りたい？
 
 HTMLを飾るための技「CSS」を使います → CSSはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_css.md  
 
-じぶんだけのウェブサイトがほしい → GitHub Pagesはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/README.md  
-
 いろんなタグを調べる → HTML要素リファレンス  
 https://developer.mozilla.org/ja/docs/Web/HTML/Element  
 
+じぶんだけのウェブサイトがほしい → GitHub Pagesはじめのいっぽ  
+https://github.com/code4sabae/website/blob/master/README.md  
