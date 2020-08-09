@@ -17,4 +17,44 @@
      20 LOCATE X, Y:PRINT CHR$(32,240,32)
      */}))</script>
     </section>
+
+    <section>
+      3.キーボードからリアルタイムで入力する。
+      <div id="list3"></div>
+      <script>makeIchigoJamLIST("list3", f2s(function() {/*
+      30 K=INKEY() 
+      */}))</script>
+     </section>
+
+     <section>
+      4.左矢印キーが押されたら自機を左側に移動させる。
+      <div id="list4"></div>
+      <script>makeIchigoJamLIST("list4", f2s(function() {/*
+      40 IF K=28 AND X>0 THEN X=X-1 
+      */}))</script>
+     </section>
+
+     <section>
+      5.右矢印キーが押されたら自機を右側に移動させる。
+      <div id="list5"></div>
+      <script>makeIchigoJamLIST("list5", f2s(function() {/*
+      50 IF K=29 AND X&lt30 THEN X=X+1
+      */}))</script>
+     </section>
+
+     <section>
+      6.ビームが発射されていない場合のみ、ビームの座標とフラグを設定する
+      <div id="list6"></div>
+      <script>makeIchigoJamLIST("list6", f2s(function() {/*
+      60 IF K=32 AND F=0 THEN F=1:C=X+1:B=Y-1
+      */}))</script>
+     </section>
+
+     <section>
+      7.ビーム未発射の場合 80～110までの処理を飛ばします。
+      <div id="list7"></div>
+      <script>makeIchigoJamLIST("list7", f2s(function() {/*
+      70 IF F=0 THEN GOTO 120
+      */}))</script>
+     </section>
 </body>
