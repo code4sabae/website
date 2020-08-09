@@ -3,6 +3,12 @@
     <section>
      IchigoJamを起動しましょう。<br>
      1.CLS 画面クリア CLP キャラクターパターンの初期化
-     <svg width="520" height="24" style="background-color: white;"><rect x="0" y="0" width="520" height="1" fill="black"></rect><rect x="0" y="23" width="520" height="1" fill="black"></rect><rect x="0" y="0" width="1" height="24" fill="black"></rect><rect x="519" y="0" width="1" height="24" fill="black"></rect></svg>
+     <script src=http://fukuno.jig.jp/app/IchigoJam/ichigojamlist.js></script>
+     <div id="list"></div>
+     <script>makeIchigoJamLIST("list", f2s(function() {/*
+     10 PRINT A:LED1:WAIT30:LED0:WAIT30:LED1:WAIT1:LED0
+     20 PRINT "エルイーディーヲ チカチカ"
+     30 LET A,A+1:GOTO 10
+     */}))</script>
     </section>
 </body>
