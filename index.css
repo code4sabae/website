@@ -25,15 +25,15 @@ div {
   margin: 0vw 0vh;
 }
 h10 {
-    font-family: "ichigojam";
-    white-space: pre-wrap;
-    background: #000;
-    color: white;
-    padding: .5em 1em;
-    margin: 10px 0em;
-    line-height: 1.3em;
-    letter-spacing: 0px;
-    font-size: 85%;
-    width: 590px;
-    word-break: break-all;
+ font-family: "ichigojam";
+ white-space: pre-wrap;
+ background: #000;
+ color: white;
+ padding: .5em 1em;
+ margin: 10px 0em;
+ line-height: 1.3em;
+ letter-spacing: 0px;
+ font-size: 85%;
+ width: 590px;
+ word-break: break-all;
 }
