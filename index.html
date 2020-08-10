@@ -1,15 +1,16 @@
 <body>
-  <h1>シューティングゲーム</h1>
+ <h1>シューティングゲーム</h1>
+ <a10>10 1 CLS:CLP:X=14:Y=17:F=0:T=100:H=1</a10> 
     <section>
      IchigoJamを起動しましょう。<br>
      1.CLS 画面クリア CLP キャラクターパターンの初期化
      <script src=http://fukuno.jig.jp/app/IchigoJam/ichigojamlist.js></script>
-     <h10>10 1 CLS:CLP:X=14:Y=17:F=0:T=100:H=1</h10>
+     <a10>10 1 CLS:CLP:X=14:Y=17:F=0:T=100:H=1</a10>
      
     </section>
 
     <section>
-     2.自機の表示させます。
+     2.自機の表示させます。 
      <div id="list2"></div>
      <script>makeIchigoJamLIST("list2", f2s(function() {/*
      20 LOCATE X, Y:PRINT CHR$(32,240,32)
@@ -55,4 +56,4 @@
       70 IF F=0 THEN GOTO 120
       */}))</script>
     </section>
-</body>
+  </body>
