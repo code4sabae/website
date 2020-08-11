@@ -24,7 +24,7 @@ div {
   padding: 0vw 0vh;
   margin: 0vw 0vh;
 }
-h1 {
+ichigojam {
  font-family: "ichigojam";
  white-space: pre-wrap;
  background: #000;
@@ -36,4 +36,19 @@ h1 {
  font-size: 85%;
  width: 590px;
  word-break: break-all;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.section {
+  padding: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  overflow-wrap: break-word;
 }
