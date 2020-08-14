@@ -1,34 +1,81 @@
 <!DOCTYPE html><html><head><meta charset="utf-8">
-<title>がめんにいたずらしてみよう！　DRAW</title>
+<title>テニスゲーム　DRAW</title>
 <link rel="stylesheet" type="text/css" href="ichigojamlist.css">
 <script src="ichigojamlist.js"></script>
 </head><body>
 
-<h1>がめんにいたずらしてみよう！　DRAW</h1>
+<h1>テニスゲーム　DRAW</h1>
 
 
 <section>
-がめんにせんをかいてみよう！
-DRAWコマンドでせんをかくことができるよ
+１以下のプログラムをイチゴジャムに打ち込みます！
 <div class=ichigojam>DRAW 1,1,70,70</div>
-２つばしょをしていしてあげよう<br>
-さいしょの1,1でさいしょのばしょ。<br>
-つぎの70,70,でつぎのばしょをしていしよう。
+CLV:B=4
+'@START
+CLS
+LOCATE 0,21:PRINT "--------------------------------";
+LOCATE 1,22:PRINT "SCORE ";T;
+LOCATE 1,23:PRINT "BALL ";B;"  TENNIS GAME";
+P=16:X=RND(10)+1:Y=0:D=1:E=1
+'@PADMOVE
+FOR I=0 TO 1
+IF BTN(LEFT) GOSUB 380
+IF BTN(RIGHT) GOSUB 420
+LOCATE P,20:PRINT " ===== ";
+WAIT 2　
+NEXT
+'@BALLMOVE
+U=X+D:V=Y+E
+IF U=0 OR U=31 THEN D=-D:GOTO 160
+IF V=-1 THEN E=1:GOTO 160
+S=SCR(U,V)
+IF S=#3D GOSUB 460:GOTO 160
+LOCATE X,Y:PRINT " ";
+LOCATE U,V:PRINT "@";
+X=U:Y=V
+IF S<>#2D GOTO 90
+'@MISS
+BEEP 30,60:WAIT 60
+B=B-1:IF B>0 GOTO 30
+'@GOVER
+CLS:LOCATE 10,7:PRINT "GAME OVER!"
+LOCATE 10,9:PRINT "SCORE ";T
+LOCATE 10,11:PRINT "Replay?(Y/N)"
+'@RKEY
+A=INKEY()
+IF A=#59 THEN RUN
+IF A=#4E THEN END
+GOTO 330
+'@PADL
+P=P-1
+IF P<0 THEN P=0
+R'@PADR
+　ETURN
+P=P+1
+IF P>25 THEN P=25
+RETURN
+'@PADBA
+BEEP 10
+　T=T+10
+LOCATE 7,22:PRINT T;
+　E=-1
+RETURN
 </section>
     
 
 <section>
-ばしょのつぎに0とくわえると、せんをけせるよ。
-<div class=ichigojam>DRAW 1,1,70,70,0</div>
-うえのほうのもじがきえたかな？
+２ゲームのなんいどをかえてみよう
+WAIT 2をWAIT3をでたまのそくどをおそくくしてゲームのなんいどをさげる
+
+WAIT 2をWAIT1にかえることでたまのそくどをはやくしてなんいどをあげる
 </section>
-
-
+３たまをふやしてみよう
+プログラムないの＠をふやすことができます
 <section>
-FORコマンドでくりかえしせんをかこう！
-<div class=ichigojam>10 FOR I=1TO11 STEP 3:DRAW I,1,i*10,70:NEXT
-</div>
-RUNでじっこうしてみると、どうなるかな？
+やってみよう
+・ふやしたたまのうごきをちょうせいしよう
+・たまをうつプレイヤーのかずをふやしてみよう
+・２でせっていなんいどよりむずかしくせっていしてみよう
 </section>
 
 <section>
