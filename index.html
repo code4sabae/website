@@ -1,3 +1,4 @@
+
 <body>
   
   <head>
@@ -5,6 +6,14 @@
   </head>
   
   <h1>シューティングゲーム</h1>
+
+  <section>
+    1.CLS 画面クリア CLP キャラクターパターンの初期化 
+    <div id="list2"></div>
+    <script>makeIchigoJamLIST("list2", f2s(function() {/*
+    10 LOCATE X, Y:PRINT CHR$(32,240,32)
+    */}))</script>
+   </section>
 
   <section>
    2.自機の表示させます。 
@@ -53,4 +62,84 @@
     70 IF F=0 THEN GOTO 120
     */}))</script>
   </section>
+
+  <section>
+    8.ビームのパーティクルを表示
+    <div id="list8"></div>
+    <script>makeIchigoJamLIST("list8", f2s(function() {/*
+    80 LOCATE C,B:PRINT CHR$(242)  
+    */}))</script>
+   </section>
+
+   <section>
+    9.表示されたパーティクルを消す
+    <div id="list9"></div>
+    <script>makeIchigoJamLIST("list9", f2s(function() {/*
+    90 LOCATE C,B+1:PRINT ” ”  
+    */}))</script>
+   </section>
+
+   <section>
+    10.ビームのパーティクル左右の移動処理
+    <div id="list10"></div>
+    <script>makeIchigoJamLIST("list10", f2s(function() {/*
+    100 B=B-1  
+    */}))</script>
+   </section>
+
+   <section>
+    11.画面上までビームが移動したらフラグを0(未発射)にする
+    <div id="list11"></div>
+    <script>makeIchigoJamLIST("list11", f2s(function() {/*
+    110 IF B&lt-1 THEN F=0 
+    */}))</script>
+   </section>
+
+   <section>
+    12.敵の表示
+    <div id="list12"></div>
+    <script>makeIchigoJamLIST("list12", f2s(function() {/*
+    120 LOCATE T/10, 2:PRINT CHR$(32,241,32)  
+    */}))</script>
+   </section>
+
+   <section>
+    13.敵とビームの当たり判定
+    <div id="list13"></div>
+    <script>makeIchigoJamLIST("list13", f2s(function() {/*
+    130 IF F=1 AND B=1 AND C=T/10+1 THEN LOCATE C,2:PRINT CHR$(244,13):PRINT “Clear!!”:END  
+    */}))</script>
+   </section>
+
+   <section>
+    14.敵の動き
+    <div id="list14"></div>
+    <script>makeIchigoJamLIST("list14", f2s(function() {/*
+    140 T=T+H
+    */}))</script>
+   </section> 
+
+   <section>
+    0.
+    <div id="list0"></div>
+    <script>makeIchigoJamLIST("list0", f2s(function() {/*
+    00 
+    */}))</script>
+   </section>
+
+   <section>
+    15.端まで行ったら反対方向に動かす
+    <div id="list15"></div>
+    <script>makeIchigoJamLIST("list15", f2s(function() {/*
+    150 IF T>290 OR T&lt10 THEN H=-H 
+    */}))</script>
+   </section>
+
+   <section>
+    16.これまでのプログラムを繰り返す
+    <div id="list16"></div>
+    <script>makeIchigoJamLIST("list16", f2s(function() {/*
+    160 GOTO 20 
+    */}))</script>
+   </section>
 </body>
