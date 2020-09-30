@@ -28,7 +28,7 @@
 もう少し詳しく？ → HTMLはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_html.md
 
-## GitHub Desktop を使って効率アップ！
+## GitHub Desktop を使って効率アップ！!!
 
 1. [GitHub Desktop](https://desktop.github.com/)をダウンロードする
 2. 自分のリポジトリの右側[clone or download]を押し、[Open in Desktop]を押す
