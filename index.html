@@ -1,46 +1,90 @@
-<!DOCTYPE html>
-<html lang='ja'>
+<!DOCTYPE html><html lang='ja'><meta charset='utf-8'/>
 <head>
-  <meta charset='utf-8'>
-  <title>たいとる</title>
-  <meta property="og:title" content="たいとる">
-  <meta property="og:description" content="せつめいせつめい">
-  <meta name="theme-color" content="#ECECF7">
-  <meta name="msapplication-TileColor" content="#ECECF7">
-  <link rel="icon" type="image/png" xhref="icon.png">
-  <link rel="apple-touch-icon" xhref="icon.png">
-  <meta name="msapplication-square310x310logo" xcontent="icon.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="https://yourdomain/ogp.jpg">
-  <meta name="twitter:image" content="https://yourdomain/ogp.jpg">
+  <title>けいさん！</title>
+  <meta property="og:title" content="けいさん！" />
+  <meta property="og:description" content="けいさんしてみよう！" />
+  <meta name="theme-color" content="#ECECF7" />
+  <meta name="msapplication-TileColor" content="#ECECF7" />
+  <link rel="icon" type="image/png" xhref="icon.png" />
+  <link rel="apple-touch-icon" xhref="icon.png" />
+  <meta name="msapplication-square310x310logo" xcontent="icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="https://yourdomain/ogp.jpg" />
+  <meta name="twitter:image" content="https://yourdomain/ogp.jpg" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
 
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/normalize.css">
+　<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class=header>
-    <h1>たいとる</h1>
-    <div>せつめいせつめい</div>
-  </div>
-  <div class=main>
-    <div>
-      <h2>さぶたいとる１</h2>
-      <div>
-        ほんぶん１
-      </div>
-    </div>
+  <!-- ========== header ========== -->
+<header>
+	<div class="container header-container">
+		<div class="header-inner">
+			<h1 class="header-logo"><a href="index.html">
+				<img src="images/header_kokuban.png"  alt="けいさん！">
+			</a></h1>
+		</div>
+	</div><!-- /header-container -->
+</header>
+<!-- ========== /header ========== -->
 
-    <div>
-      <h2>さぶたいとる２</h2>
-      <div>
-        ほんぶん２
-      </div>
+<!-- ========== keyvisual ========== -->
+<div class="home-keyvisual">	
+	<img src="images/kokuban.png" alt="こくばん" class="img-responsive">
+</div><!-- /.home-keyvisual -->
+<!-- ========== /keyvisual ========== -->
+            
+            
+<!-- ========== /main ========== -->
+<section class="main">
+    
+    
+    
+</section>
+    
+<section class="main">
+    <div class="container">
+        <h2 class="home-h2">けいさんコーナー</h2>
+                <ul class="home-course">
+                    
+                    <li>
+                        <a href="question/question+.html"><figure><img src="images/+font2.png" alt="たしざん">
+                        <figcaption>たしざん</figcaption>
+                        </figure></a>
+                    </li>
+                    <li>
+                        <a href="question/question-.html"><figure><img src="images/-font2.png" alt="ひきざん">
+                        <figcaption>ひきざん</figcaption>
+                        </figure></a>
+                    </li>
+                    <li>
+                        <a href="question/question%C3%97.html"><figure><img src="images/×font.png" alt="かけざん">
+                        <figcaption>かけざん</figcaption>
+                        </figure></a>
+                    </li>
+                </ul>
     </div>
-  </div>
-  <div class=footer>
-    ふったー
-  </div>
+</section>
+    
+<!-- ========== footer ========== -->
+<footer>
+	<div class="container footer-container">
+	   	<ul class="footer-nav">
+			<li><a href="index.html">ホーム</a></li>
+		    <li><a href="question/question+.html">たしざん</a></li>
+		    <li><a href="question/question-.html">ひきざん</a></li>
+            <li><a href="question/question%C3%97.html">かけざん</a></li>
+	    </ul><!-- /.footer-nav -->
+        <p>お問い合わせ: miura9187@gmail.com</p>
+		<!--p class="footer-copyright">
+		</p--><!-- /.footer-copyright -->
+	</div><!-- /.footer-container -->
+</footer>
+<!-- ========== /footer ========== -->
+
+<script src="script.js"></script>
 </body>
 </html>
