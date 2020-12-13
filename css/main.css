@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/* ========== すべて共通 ========== */
+html, body {
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #393939;
+	background: #efefef;
+}
+body, div, p, h1, h2, ul, figure, i {
+	margin: 0;
+	padding: 0;
+}
+p, td, th, li, i {
+	line-height: 1.8;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+a {
+	color: #709a00;
+}
+a:hover {
+	color: #95cd00;
+}
+a:active {
+	color: #4b6700;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+/* 共通の見出し */
+main h1 {
+	margin-bottom: 1rem;
+	border-bottom: 1px dashed #224400;
+	font-weight: normal;
+	font-size: 1.6rem;
+}
+
+.container {
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 1000px;
+}
+@media screen and (min-width: 768px) {
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/* ========== ヘッダー ========== */
+header {
+	background: #224400;
+}
+.header-inner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header-logo {
+	padding: 10px 0;
+	width: 160px;
+	height: 37px;
+}
+
+@media screen and (min-width: 768px) {
+	.header-logo {
+		padding: 20px 0;
+		width: 200px;
+		height: 46px;
+	}
+}
+
+
+
+/* ========== メインエリア基本レイアウト ========== */
+main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #efefef;
+}
+
+@media screen and (min-width: 767px) {
+	main {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+/* ========== フッター ========== */
+footer {
+	background: #224400;
+	font-size: 0.9rem;
+	color: #fff;
+}
+.footer-container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-nav {
+	list-style-type: none;
+}
+.footer-nav li {
+	display: inline;
+	padding: 0 1rem 0 0;
+}
+.footer-nav a {
+	color: #fff;
+	text-decoration: none;
+}
+.footer-nav a:hover {
+	opacity: 0.5;
+}
+
+/* ========== index.html トップページ ========== */
+
+/* キャッチコピー */
+.home-maincopy {
+	text-align: center;
+	font-size: 1.4rem;
+}
+.home-maincopy strong {
+	color: #c84040;
+}
+
+@media screen and (min-width: 767px) {
+	.home-maincopy {
+		font-size: 2.4rem;
+	}
+}
+
+
+/* 見出し */
+.home-h2 {
+	padding-bottom: 5px;
+	margin: 30px 0 10px 0;
+	color: #224400;
+	border-bottom: 1px dashed #224400;
+	font-size: 1.3rem;
+}
+
+/* コース一覧 */
+.home-course {
+	display: flex;
+	flex-flow: column;
+}
+.home-course li {
+	flex: 1 1 auto;
+	margin: 0 2px 4px 2px;
+	border: solid 3px #fff;
+	list-style-type: none;
+	background: #fff;
+}
+
+
+/* 画面幅が広い（タブレット・パソコン向け） */
+@media screen and (min-width: 768px) {
+	.home-course {
+		flex-flow: row;
+	}
+}
+
+.home-course a {
+	color: #393939;
+	text-decoration: none;
+}
+
+.home-course figure:hover {
+	opacity: 0.5;
+}
+
+.home-course figcaption {
+	padding: 15px 0;
+	font-size: 0.9rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/*　========== 計算コーナー ========== */
+
+.attention{
+    font-size: 16px;
+    color:darkred;
+}
+
+/*　計算式 */
+i{
+    font-size: 32px;
+}
+
+/* テキスト */
+.figure{
+    display: block;
+    font-size: 36px;
+    
+}
+
+/* といた！button */
+.button{
+    display: block;
+    font-size: 30px;
+}
+

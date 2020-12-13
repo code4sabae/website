@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="description" content="たしざんしよう！">
+<title>たしざん！</title>
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/main.css">
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+<!-- ========== header ========== -->
+<header>
+	<div class="container header-container">
+		<div class="header-inner">
+			<h1 class="header-logo"><a href="../index.html">
+				<img src="../images/header_kokuban.png"  alt="けいさん！">
+			</a></h1>
+		</div>
+	</div><!-- /header-container -->
+</header>
+<!-- ========== /header ========== -->
+    
+<!-- ========== main ========== -->
+<section class="main">
+	<div class="container int">
+		<main>
+            <p class="attention">*ちゅうい！:　すうじ　は　はんかく　で　にゅうりょく　してね！*<br>
+                
+            <div id="ans-one">
+                <i id="int-one">計算</i>
+                <i> + </i>
+                <i id="int-one-two">計算</i>
+                <i> = </i>
+                <i id="int-one-ans"></i><br>
+            </div>
+            
+            <script>
+                var answer1 = 0;
+                var figure1 = 0;
+                
+                document.write('<form action="#" id="form1">' + '<input type="text" name="word1" class="figure">' + '<input type="submit" value="といた！" class="button">' + '<br />' +'</form>' + '<br />');
+                
+                var num_a1 = Math.floor(Math.random()*10);
+                var num_a2 = Math.floor(Math.random()*10);
+                
+                figure1 = num_a1 + num_a2;
+                
+                document.getElementById('int-one').textContent = '(1) ' + num_a1;
+                document.getElementById('int-one-two').textContent = num_a2;
+                
+                document.getElementById('form1').onsubmit = function(){
+                    answer1 = document.getElementById('form1').word1.value;
+                    
+                   if(answer1 == figure1){
+                        document.getElementById('int-one-ans').textContent = answer1  + '　せいかい！　' + 'こたえは　' + figure1;
+                   }
+                    else{
+                        document.getElementById('int-one-ans').textContent = answer1  + '　ざんねん...　' + 'こたえは　' + figure1;
+                    }
+                   
+                    
+                    return false;
+                }
+                
+            </script> 
+            
+            <div id="ans-two">
+                <i id="int-two">計算</i>
+                <i> + </i>
+                <i id="int-two-two">計算</i>
+                <i> = </i>
+                <i id="int-two-ans"></i><br>
+            </div>
+            
+            <script>
+                var answer2 = 0;
+                var figure2 = 0;
+                
+                document.write('<form action="#" id="form2">' + '<input type="text" name="word2" class="figure">' + '<input type="submit" value="といた！" class="button">' + '<br />' +'</form>' + '<br />');
+                var num_b1 = Math.floor(Math.random()*10);
+                var num_b2 = Math.floor(Math.random()*10);
+
+                figure2 = num_b1 + num_b2;
+                
+                document.getElementById('int-two').textContent = '(2) ' + num_b1;
+                document.getElementById('int-two-two').textContent = num_b2;
+                
+                document.getElementById('form2').onsubmit = function(){
+                    answer2 = document.getElementById('form2').word2.value;
+                    
+                   if(answer2 == figure2){
+                        document.getElementById('int-two-ans').textContent = answer2  + '　せいかい！　' + 'こたえは　' + figure2;
+                   }
+                    else{
+                        document.getElementById('int-two-ans').textContent = answer2  + '　ざんねん...　' + 'こたえは　' + figure2;
+                    }
+                   
+                    
+                    return false;
+                }
+                
+            </script> 
+            
+            <div id="ans-three">
+                <i id="int-three">計算</i>
+                <i> + </i>
+                <i id="int-three-two">計算</i>
+                <i> = </i>
+                <i id="int-three-ans"></i><br>
+            </div>
+            
+            <script>
+                var answer3 = 0;
+                var figure3 = 0;
+                
+                document.write('<form action="#" id="form3">' + '<input type="text" name="word3" class="figure">' + '<input type="submit" value="といた！" class="button">' + '<br />' +'</form>' + '<br />');
+                var num_c1 = Math.floor(Math.random()*10);
+                var num_c2 = Math.floor(Math.random()*10);
+
+                figure3 = num_c1 + num_c2;
+                
+                document.getElementById('int-three').textContent = '(3) ' + num_c1;
+                document.getElementById('int-three-two').textContent = num_c2;
+                
+                document.getElementById('form3').onsubmit = function(){
+                    answer3 = document.getElementById('form3').word3.value;
+                    
+                   if(answer3 == figure3){
+                        document.getElementById('int-three-ans').textContent = answer3  + '　せいかい！　' + 'こたえは　' + figure3;
+                   }
+                    else{
+                        document.getElementById('int-three-ans').textContent = answer3  + '　ざんねん...　' + 'こたえは　' + figure3;
+                    }
+                   
+                    
+                    return false;
+                }
+                
+            </script> 
+            
+            <div id="ans-four">
+                <i id="int-four">計算</i>
+                <i> + </i>
+                <i id="int-four-two">計算</i>
+                <i> = </i>
+                <i id="int-four-ans"></i><br>
+            </div>
+            
+            <script>
+                var answer4 = 0;
+                var figure4 = 0;
+                
+                document.write('<form action="#" id="form4">' + '<input type="text" name="word4" class="figure">' + '<input type="submit" value="といた！" class="button">' + '<br />' +'</form>' + '<br />');
+                var num_d1 = Math.floor(Math.random()*10);
+                var num_d2 = Math.floor(Math.random()*10);
+                
+                figure4 = num_d1 + num_d2;
+                
+                document.getElementById('int-four').textContent = '(4) ' + num_d1;
+                document.getElementById('int-four-two').textContent = num_d2;
+                
+                document.getElementById('form4').onsubmit = function(){
+                    answer4 = document.getElementById('form4').word4.value;
+                    
+                   if(answer4 == figure4){
+                        document.getElementById('int-four-ans').textContent = answer4  + '　せいかい！　' + 'こたえは　' + figure4;
+                   }
+                    else{
+                        document.getElementById('int-four-ans').textContent = answer4  + '　ざんねん...　' + 'こたえは　' + figure4;
+                    }
+                   
+                    
+                    return false;
+                }
+                
+            </script> 
+            
+            <div id="ans-five">
+                <i id="int-five">計算</i>
+                <i> + </i>
+                <i id="int-five-two">計算</i>
+                <i> = </i>
+                <i id="int-five-ans"></i><br>
+            </div>
+            
+            <script>
+                var answer5 = 0;
+                var figure5 = 0;
+                
+                document.write('<form action="#" id="form5">' + '<input type="text" name="word5" class="figure">' + '<input type="submit" value="といた！" class="button">' + '<br />' +'</form>' + '<br />');
+                var num_e1 = Math.floor(Math.random()*10);
+                var num_e2 = Math.floor(Math.random()*10);
+                
+                figure5 = num_e1 + num_e2;
+                
+                document.getElementById('int-five').textContent = '(5) ' + num_e1;
+                document.getElementById('int-five-two').textContent = num_e2;
+                
+                document.getElementById('form5').onsubmit = function(){
+                    answer5 = document.getElementById('form5').word5.value;
+                    
+                   if(answer5 == figure5){
+                        document.getElementById('int-five-ans').textContent = answer5  + '　せいかい！　' + 'こたえは　' + figure5;
+                   }
+                    else{
+                        document.getElementById('int-five-ans').textContent = answer5  + '　ざんねん...　' + 'こたえは　' + figure5;
+                    }
+                   
+                    
+                    return false;
+                }
+                
+            </script> 
+        </main>
+    </div>
+</section>
+    
+<section class="main">
+    <div class="container">
+        <h2 class="home-h2">けいさんコーナー</h2>
+                <ul class="home-course">
+                    
+                    <li>
+                        <a href="question+.html"><figure><img src="../images/+font2.png" alt="たしざん">
+                        <figcaption>たしざん</figcaption>
+                        </figure></a>
+                    </li>
+                    <li>
+                        <a href="question-.html"><figure><img src="../images/-font2.png" alt="ひきざん">
+                        <figcaption>ひきざん</figcaption>
+                        </figure></a>
+                    </li>
+                    <li>
+                        <a href="question%C3%97.html"><figure><img src="../images/×font.png" alt="かけざん">
+                        <figcaption>かけざん</figcaption>
+                        </figure></a>
+                    </li>
+                </ul>
+    </div>
+</section>
+    
+<!-- ========== footer ========== -->
+<footer>
+	<div class="container footer-container">
+	   	<ul class="footer-nav">
+			<li><a href="../index.html">ホーム</a></li>
+		    <li><a href="question+.html">たしざん</a></li>
+		    <li><a href="question-.html">ひきざん</a></li>
+            <li><a href="question%C3%97.html">かけざん</a></li>
+	    </ul><!-- /.footer-nav -->
+        <p>お問い合わせ: kanes5301@gmail.com</p>
+		<!--p class="footer-copyright">
+		</p--><!-- /.footer-copyright -->
+	</div><!-- /.footer-container -->
+</footer>
+<!-- ========== /footer ========== -->
+
+<script src="../script.js"></script>
+</body>
+</html>
