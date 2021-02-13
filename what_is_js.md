@@ -45,7 +45,7 @@ https://github.com/code4sabae/website/blob/master/what_is_html.md
 
 1から10までの数を表示するプログラム
 ```
-<script type="modlue">
+<script type="module">
 for (let i = 0; i < 10; i++) {
   alert(i);
 }
@@ -188,6 +188,9 @@ https://github.com/code4sabae/website/blob/master/what_is_html.md
 
 CSSの復習はこちら → CSSはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_css.md  
+
+GitHubにアップロードしてみましょう  
+https://github.com/code4sabae/website/blob/master/README.md  
 
 ## JSを使った楽しいサンプル
 
