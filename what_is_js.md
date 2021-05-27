@@ -20,7 +20,7 @@ btn.onclick = () => {
   const bmi = weight.value / (height.value / 100) ** 2;
   const s = bmi >= 18.5 && bmi < 25 ? "Good! " : "Bad... ";
   output.value = s + bmi;
-}
+};
 </script>
 </body>
 ```
