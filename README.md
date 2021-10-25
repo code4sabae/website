@@ -28,6 +28,27 @@
 もう少し詳しく？ → HTMLはじめのいっぽ  
 https://github.com/code4sabae/website/blob/master/what_is_html.md
 
+## プログラムを加えよう
+
+1. ページを開いた時、計算結果がダイアログで出るようにするHTMLを加える
+```js
+<script type="module">
+alert(1 + 1);
+</script>
+```
+2. scriptタグの中身はJavaScriptというプログラミング言語、いろいろ計算してくれます！
+
+## サイトを育てましょう！
+
+- [HTMLはじめのいっぽ](https://github.com/code4sabae/website/blob/master/what_is_html.md)
+- [CSSはじめのいっぽ](https://github.com/code4sabae/website/blob/master/what_is_css.md)
+- [JSはじめのいっぽ](https://github.com/code4sabae/website/blob/master/what_is_js.md)
+
+## わからないこと？
+
+こちらのIssuesに分からないことをどうぞ！  
+https://github.com/code4sabae/website/issues  
+
 ## GitHub Desktop を使って効率アップ!
 
 1. [GitHub Desktop](https://desktop.github.com/)をダウンロードする
@@ -45,19 +66,3 @@ https://github.com/code4sabae/website/blob/master/what_is_html.md
 
 github.io じゃなく、じぶんだけのドメイン（独自ドメイン）を設定したい方はこちら  
 https://github.com/code4sabae/website/blob/master/what_is_domain.md  
-
-## サイトを育てましょう！
-
-HTMLはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_html.md  
-
-CSSはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_css.md  
-
-JSはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_js.md  
-
-## わからないこと？
-
-こちらのIssuesに分からないことをどうぞ！  
-https://github.com/code4sabae/website/issues  
