@@ -25,9 +25,6 @@
 6. &lt;img src="imgfile.jpg"&gt; と、&lt;h1&gt;タイトル&lt;/h1&gt; の前の行に書く (imgfile.jpg はアップロードしたファイル名に）
 7. コミットし、しばらく待って、リロードすると表示される！
 
-もう少し詳しく？ → HTMLはじめのいっぽ  
-https://github.com/code4sabae/website/blob/master/what_is_html.md
-
 ## プログラムを加えよう
 
 1. ページを開いた時、計算結果がダイアログで出るようにするHTMLを加える
