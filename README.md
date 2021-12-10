@@ -2,7 +2,7 @@
 
 ## ひとまず作ってみよう！
 
-1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/)（ウェブサイトの名前の一部になるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
+1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/) （[スライドでの解説](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BB%E3%82%9A.pdf)、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
 2. [このリポジトリ](https://github.com/code4sabae/website/)を右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロジェクトのファイル一式を指す）
 3. 自分のリポジトリの設定(Settings、Code、Issuesの並び、「...」で隠れていることもある)を開く
 4. GitHub Pages の項目までスクロールし、Sourceを[master brunch]に変更する
