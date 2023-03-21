@@ -2,7 +2,9 @@
 
 ## ひとまず作ってみよう！
 
-1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/) （[スライドでの解説](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BB%E3%82%9A.pdf)、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
+1. 確認できるメールアドレスを用意して、GitHubアカウントを作る [Sign up for GitHub](https://github.com/)
+<img width="582" alt="image" src="https://user-images.githubusercontent.com/1715217/226754875-7f52824c-5452-4858-8eac-794dbae6768c.png">
+
 2. [このリポジトリ](https://github.com/code4sabae/website/)を右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロジェクトのファイル一式を指す）
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/1715217/226750933-5a111401-eccc-4e70-b02b-ee4011b6de9b.png">
 
