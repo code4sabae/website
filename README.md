@@ -5,6 +5,7 @@
 1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/) （[スライドでの解説](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BB%E3%82%9A.pdf)、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
 2. [このリポジトリ](https://github.com/code4sabae/website/)を右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロジェクトのファイル一式を指す）
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/1715217/226750933-5a111401-eccc-4e70-b02b-ee4011b6de9b.png">
+
 3. 自分のリポジトリの設定(Settings、Code、Issuesの並び、「...」で隠れていることもある)を開く
 4. GitHub Pages の項目までスクロールし、Sourceを[master brunch]に変更して、Saveを押す
 5. 1分くらい待つ
@@ -27,8 +28,10 @@
 2. HTMLの本文のどこかに &lt;a herf="test.html"&gt;GitHub&lt;/a&gt; と書いて「commit changes」
 3. Code を押して、Add file、Create new file をクリックする
 <img width="279" alt="image" src="https://user-images.githubusercontent.com/1715217/226752316-a49daeac-ee2d-4bb1-8891-efb042559213.png">
+
 3. ファイル名でとりあえず test.html とつける （HTMLは .html で終わる英数字でファイル名を付ける）
 <img width="375" alt="image" src="https://user-images.githubusercontent.com/1715217/226752535-8419ec4e-6e03-44a1-832b-20647c823db0.png">
+
 4. 本文にテストと書いて「commite changes」、1分くらい待つと反映
 5. いくらでもページを増やせる！
 
