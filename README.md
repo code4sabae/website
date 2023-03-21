@@ -6,12 +6,11 @@
 2. [このリポジトリ](https://github.com/code4sabae/website/)を右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロジェクトのファイル一式を指す）
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/1715217/226750933-5a111401-eccc-4e70-b02b-ee4011b6de9b.png">
 
-3. 自分のリポジトリの設定(Settings、Code、Issuesの並び、「...」で隠れていることもある)を開く
+3. 自分のリポジトリの設定 Settings を開く (ブラウザ幅が短いと「...」で隠れている)
 <img width="286" alt="image" src="https://user-images.githubusercontent.com/1715217/226753559-2a412a27-cb94-45de-8b1f-96928c860184.png">
 
 4. 左のメニューから「Pages」をクリック、Brunchを[master brunch]に変更して、Saveを押す
 <img width="667" alt="image" src="https://user-images.githubusercontent.com/1715217/226753697-51318b6e-b338-4f4e-aa0b-329d5194af4e.png">
-
 
 5. 1分くらい待つ
 6. そのページをリロードすると、新たに表示される https://...github.io/website/ というリンクを新しいウィンドウで開く　（自分のサイトで動いた！）
@@ -21,7 +20,7 @@
 9. &lt;h1&gt;たいとる&lt;/h1&gt;と書いてあるところを好きなタイトルに変える
 10. 画面下の緑色のボタン「commit changes」を押す
 11. 1分くらいまって、さっき開いたウィンドウ　https://...github.io/website/　をリロードすると、編集したタイトルに変わる！ （自分のサイトできた！）
-12. 以降、編集、コミット、ちょっと待って、反映でウェブサイトづくりができる
+12. 以降、編集、コミット、ちょっと待って反映、この繰り返しでウェブサイトづくりができる
 
 ## リンクしよう
 
