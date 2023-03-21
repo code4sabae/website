@@ -4,16 +4,33 @@
 
 1. GitHubアカウントを作る [Sign up for GitHub](https://github.com/) （[スライドでの解説](https://github.com/code4fukui/slide/blob/main/GitHub%E3%81%AF%E3%81%97%E3%82%99%E3%82%81%E3%81%AE%E3%81%84%E3%81%A3%E3%81%BB%E3%82%9A.pdf)、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！）
 2. [このリポジトリ](https://github.com/code4sabae/website/)を右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロジェクトのファイル一式を指す）
+<img width="440" alt="image" src="https://user-images.githubusercontent.com/1715217/226750933-5a111401-eccc-4e70-b02b-ee4011b6de9b.png">
 3. 自分のリポジトリの設定(Settings、Code、Issuesの並び、「...」で隠れていることもある)を開く
-4. GitHub Pages の項目までスクロールし、Sourceを[master brunch]に変更する
-5. もう一度 GitHub Pages の項目までスクロールして、書いてあるリンクを新しいウィンドウで開いておく
-6. すぐには表示されないので、待っている間にカスタマイズ！自分のリポジトリの index.html を開く
-7. 右上の鉛筆マークで編集モードにする（ブラウザの翻訳機能はOFFにしておきましょう）
-8. &lt;h1&gt;たいとる&lt;/h1&gt;とあるところを好きなタイトルに変える
-9. 画面下の「commit changes」を押す
-10. さっき開いたウィンドウをリロードしてみる
-11. 数分すると、編集したタイトルに変わる！
+4. GitHub Pages の項目までスクロールし、Sourceを[master brunch]に変更して、Saveを押す
+5. 1分くらい待つ
+6. GitHub Pages のページをリロードすると、先頭あたりに表示される https://...github.io/website/ というリンクを新しいウィンドウで開く　（自分のサイトで動いた！）
+7. 自分のリポジトリ、メニューの Code を押し index.html を開く
+8. 右上の鉛筆マークで編集モードにする （ブラウザの翻訳機能はOFFにしておきましょう）
+9. &lt;h1&gt;たいとる&lt;/h1&gt;と書いてあるところを好きなタイトルに変える
+10. 画面下の緑色のボタン「commit changes」を押す
+11. 1分くらいまって、さっき開いたウィンドウ　https://...github.io/website/　をリロードすると、編集したタイトルに変わる！ （自分のサイトできた！）
 12. 以降、編集、コミット、ちょっと待って、反映でウェブサイトづくりができる
+
+## リンクしよう
+
+1. HTMLの本文のどこかに &lt;a herf="http://github.com/"&gt;GitHub&lt;/a&gt; と書いて「commit changes」
+2. GitHubへのリンクができる！
+
+## 複数ページを作って、リンクしよう
+
+1. Code を押して、index.html を開く
+2. HTMLの本文のどこかに &lt;a herf="test.html"&gt;GitHub&lt;/a&gt; と書いて「commit changes」
+3. Code を押して、Add file、Create new file をクリックする
+<img width="279" alt="image" src="https://user-images.githubusercontent.com/1715217/226752316-a49daeac-ee2d-4bb1-8891-efb042559213.png">
+3. ファイル名でとりあえず test.html とつける （HTMLは .html で終わる英数字でファイル名を付ける）
+<img width="375" alt="image" src="https://user-images.githubusercontent.com/1715217/226752535-8419ec4e-6e03-44a1-832b-20647c823db0.png">
+4. 本文にテストと書いて「commite changes」、1分くらい待つと反映
+5. いくらでもページを増やせる！
 
 ## 画像をつけよう
 
