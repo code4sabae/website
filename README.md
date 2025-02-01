@@ -73,6 +73,12 @@ alert(1 + 1);
 こちらのIssuesに分からないことをどうぞ！  
 https://github.com/code4sabae/website/issues  
 
+→ スマホでもいい感じにみえるようにしたい
+先頭に下記を記述するといい感じになります
+```html
+<meta name="viewport" content="width=device-width"><meta name="viewport" content="width=device-width">
+```
+
 ## GitHub Desktop を使って効率アップ!
 
 1. [GitHub Desktop](https://desktop.github.com/)をダウンロードする
