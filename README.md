@@ -26,7 +26,7 @@
 
 ## リンクしよう
 
-1. HTMLの本文のどこかに &lt;a herf="http://github.com/" &gt; GitHub &lt; /a &gt; と書いて「commit changes」
+1. HTMLの本文のどこかに &lt;a herf="https://github.com/" &gt; GitHub &lt;/a&gt; と書いて「commit changes」
 2. GitHubへのリンクができる！
 
 ## 複数ページを作って、リンクしよう
